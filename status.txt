@@ -1,0 +1,8 @@
+# Liam Keane
+
+I was able to download Kali on my windows pc no problem, so I at least have a machine capable of running
+a VM. Unfortunately, my laptop which runs linux could not (despite my sincere efforts) properly install
+VMWare. My current understanding is VMWare or whatever company owns them now is not up to date with the
+current linux kernel, so I am unable to compile pieces of software correctly. However, I did set up a
+dual boot just in case I want to use Kali on my laptop, but that does not have the added layer of security
+between my actual computer and the os that the VM would.
