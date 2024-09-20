@@ -14,10 +14,10 @@ FRAME 3: 	0.050844295	10.133.6.241	129.6.15.28	TCP	54	53804 → 13 [ACK] Seq=1 A
 6. The server initiated the closing because they sent the first [FIN] message.
 
 ## ===== HTTP =====
-Despite my best efforts, I was not able to capture any packets when filtering and connecting to the website. 
-1. How many TCP connections were opened? How can you tell?
-2. Can you tell where my homepage (index.html) was requested? (If not, why not? If so, include frame summaries and/or other info that supports your answer.)
-3. Can you tell where my photograph (jeff-square-colorado.jpg) was requested? (If not, why not? If so, include frame summaries and/or other info that supports your answer.)
+
+1. It looks to be around 8 TCP connections because it takes a bit of back and forth for the server to return the hmtl and especially the images.
+2. FRAME 4: 	0.025484815	192.168.186.128	172.233.221.124	HTTP	489	GET /index.html HTTP/1.1 
+3. I can narrow it down to two frames (#222 and #224 for me) that are transporting a JPEG, but I cannot be sure which one corresponds to each image.
 
 ## ===== QUESTIONS =====
 
