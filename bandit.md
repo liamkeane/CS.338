@@ -75,10 +75,33 @@ sort data.txt | uniq -u
 
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
-### Level 9
+### Level 9 - 11
 
-### Level 10
-
-### Level 11
+*Notes didn't save from these levels, so I don't have the passwords, and I don't
+want to redo them*
 
 ### Level 12
+
+This was really annoying. Using `file` you repeatedly decompress data.txt until
+it is a readable ASCII text file.
+
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+### Level 13
+
+The private key is given which you can then specify to be used in ssh.
+`ssh -p 2220 -i sshkey.private bandit14@localhost`
+
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+### Level 14
+
+
+
+
+
+
+
+
+
+
